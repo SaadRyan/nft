@@ -1,0 +1,159 @@
+html{
+    height: 100%;
+}
+@import url('https://fonts.google.com/specimen/Outfit');
+
+@font-face {
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+src: local('Outfit'), local('Outfit'), url(https://fonts.google.com/specimen/Outfit) format('ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:hsl(217, 54%, 11%);
+    animation: float 6s linear infinite alternate;
+  }
+  
+  section {
+    padding: 45px;
+    background-color: hsl(216, 50%, 16%);
+    width: 500px;
+    border-radius: 15px;
+    display: flex;
+    gap: 20px;
+    text-align: flex-start;
+    box-shadow: 2px 15px 20px hsl(215, 32%, 27%);
+  }
+  
+  header img {
+    width: 140px;
+  }
+  
+  header h3{
+    color: #000000;
+    font-size: 1.35rem;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+  }
+  
+  main a {
+    background: #ffffff;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 3px;
+    box-shadow: 10px 10px #000000;
+    transition: all .5s ease-in-out;
+  }
+  
+  main a:hover {
+    opacity: .85;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 520px) {
+    section{
+      width: 90%;
+      padding: 30px;
+    }
+    header img{
+      width: 100px;
+    }
+    header h3{
+      font-size: 1.3rem;
+    }
+    main{
+      gap: 15px;
+    }
+    main a{
+      padding: 10px 0;
+      box-shadow: 5px 5px #464646;
+    }
+  }
+  .white{
+    
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    padding: 10px;
+  }
+  .soft{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .foto-perfil{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 100%;
+  }
+  .date{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    
+  }
+  .bit {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+  }
+  .antes-nome{
+    color: hsl(215, 51%, 70%);
+    margin: 15px;
+    font-size: 18px;
+    
+  }
+  .nome{
+    color:#ffffff;
+    font-size: 18px;
+  }
+  .alinha{
+    display: flex;
+    padding: 10px;
+    
+  }
+  .alinha2{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    
+  }
+  .line{
+    width: 95%;
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+    border-radius: 5px;
+    margin: 5px 0 20px 0;
+}
+.tudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Houver da Imagem de Cubo*/
+
+.image{
+
+}
+
